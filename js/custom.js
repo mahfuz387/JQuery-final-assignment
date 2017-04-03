@@ -5,7 +5,7 @@
                 $(".fakeloader").fakeLoader({
                     timeToHide:1200,
                     bgColor:"#006699",
-                    spinner:"spinner4", 
+                    spinner:"spinner5", 
                      
                 });
                  $('#header-section').parallax("90%",.5);
@@ -33,9 +33,15 @@
             }
             );
 
-           
- 
-     
+            var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        slidesPerView: 'auto',
+        paginationClickable: true,
+        spaceBetween: 0,
+        centeredSlides: true,
+        autoplay: 2500,
+    });
+       
            
     
 

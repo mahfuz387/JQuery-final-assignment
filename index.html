@@ -68,7 +68,7 @@
 <section id="header-section">
   <div class="container">
     <div class="header">
-            <img src="images/mahfuz.jpg" class="img-responsive img-circle">
+            <img src="images/mahfuz13.jpg" class="img-responsive img-circle">
 
             <h1>Md.Mahfuzur Rahman</h1>
 
@@ -89,7 +89,7 @@
 
           <div class="aboutme baguetteBoxThree">
 
-            <div class="col-sm-5 wow bounceInUp wow" data-wow-duration="2s" data-wow-delay=".1s"">
+            <div class="col-sm-5 wow bounceInUp wow" data-wow-duration="2s" data-wow-delay=".5s"">
 
               <div class="aboutme-img">
                 
@@ -99,7 +99,7 @@
               
             </div>
 
-            <div class="col-sm-7 wow bounceInRight wow" data-wow-duration="2s" data-wow-delay=".1s">
+            <div class="col-sm-7 wow bounceInRight wow" data-wow-duration="2s" data-wow-delay=".5s">
 
               <div class="aboutme-content">
 
@@ -136,7 +136,7 @@
             </div>
           <div class="row">
           
-          <div class="col-md-4 col-sm-6 wow bounceInUp wow" data-wow-duration="2s" data-wow-delay=".1s">
+          <div class="col-md-4 col-sm-6 wow bounceInUp wow" data-wow-duration="2s" data-wow-delay="1s">
             <div class="service-item">
                   <i class="fa fa-camera"></i>
                   <h2>Photography & portrait</h2>
@@ -194,21 +194,22 @@
 
             <div class="col-md-3 col-sm-6 col-xs-12">
               <div class="count-box">
-                <h1>246</h1>
+                <span>2460</span>
                 <h3>Completed Projects</h3>
               </div>
             </div>
 
             <div class="col-md-3 col-sm-6 col-xs-12">
                 <div class="count-box">
-                  <h1>81</h1>
+                  <span>1023</span>
                  <h3>Happy Clients</h3>
                 </div>
             </div>
 
             <div class="col-md-3 col-sm-6 col-xs-12">
               <div class="count-box">
-                 <h1>378</h1>
+              <span>3780</span>
+                 <h1></h1>
                  <h3>Cup of coffie</h3>
               </div>
              </div>
@@ -216,7 +217,8 @@
 
             <div class="col-md-3 col-sm-6 col-xs-12">
                 <div class="count-box">
-                   <h1>6217</h1>
+                 
+                   <span>6217</span>
                     <h3>line of code</h3>
                 </div>
             </div>
@@ -310,27 +312,27 @@
                 </div>
 
                  <div class="row grid baguetteBoxThree">
-                    <div class="col-md-4 col-sm-4 element-item webdesign wow bounceInUp wow" data-wow-duration="2s" data-wow-delay="1s">
+                    <div class="col-md-4 col-sm-4 element-item webdesign wow bounceInUp wow" data-wow-duration="2s" data-wow-delay="1s"">
                     <div class="portfolio-item ">
                      <a  href="images/port1.png">
                      <img class="img-portfolio img-responsive" src="images/port1.png"></a>
                       </div>
                         </div>
-                        <div class="col-md-4 col-sm-4 element-item development wow bounceInRight wow" data-wow-duration="2s" data-wow-delay="1s">
+                        <div class="col-md-4 col-sm-4 element-item development wow bounceInRight wow" data-wow-duration="2s" data-wow-delay="1s"">
                             <div class="portfolio-item">
                                 <a  href="images/port2.png" >
                                     <img class="img-portfolio img-responsive" src="images/port2.png">
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-4 element-item photography wow bounceInLeft wow" data-wow-duration="2s" data-wow-delay="1s">
+                        <div class="col-md-4 col-sm-4 element-item photography wow bounceInLeft wow" data-wow-duration="2s" data-wow-delay="1s"">
                             <div class="portfolio-item">
                                 <a  href="images/port3.png">
                                     <img class="img-portfolio img-responsive" src="images/port3.png">
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-4 element-item webdesign wow bounceInUp wow" data-wow-duration="2s" data-wow-delay="1s">
+                        <div class="col-md-4 col-sm-4 element-item webdesign wow bounceInUp wow" data-wow-duration="2s" data-wow-delay="1s"">
                             <div class="portfolio-item">
                                 <a  href="images/port4.png" >
                                     <img class="img-portfolio img-responsive" src="images/port4.png"></a>
@@ -525,7 +527,7 @@
     <script src="js/jquery.nicescroll.min.js"></script>
     <script src="js/parallax.min.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
- 
+    <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/custom.js"></script>
  
     <script>
@@ -537,7 +539,18 @@
     }
   }
 });
-            
+ $(function( $ ) {
+
+$('span').counterUp({
+
+delay: 10, // the delay time in ms
+
+time: 1000 // the speed time in ms
+
+});
+
+});
+     
     </script>
 
 
