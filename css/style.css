@@ -15,9 +15,9 @@
     font-weight: 700;
     background-color: transparent;
 }
-.navbar-default .navbar-brand  span{
+.navbar-default .navbar-brand spam {
     color: #FFEB3B;
-    font-weight: 400;
+    font-weight: 200;
 }
 .navbar-default .navbar-nav > li > a {
     color: #fff;
@@ -544,7 +544,7 @@
     font-weight: 800;
     margin-bottom: 0px;
 }
-.only_text span{
+.only_text spam{
     font-size: 14px;
   
 }
